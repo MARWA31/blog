@@ -7,6 +7,9 @@ import { Component} from '@angular/core';
   styleUrls: ['./categories.component.css']
 })
 export class CategoriesComponent {
-category = signal("")
-categories=signal([]);
+label : string="";
+categories:string[]=[];
+add(){
+  
+}
 }
